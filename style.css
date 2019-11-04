@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+
+    .body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .heading {
+        display: flex;
+    }
+
+    .logo-box {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    .volkswagon {
+        font-family: 'Lalezar', cursive;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .logo {
+        width: 16px;
+        padding-left: 4px;
+        padding-bottom: 5px;
+    }
+
+    /* section {
+        display: flex;
+    } */
+
+    .section1 {
+        background: cover;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    .section2 {
+        background: cover;
+        width: 70%;
+        padding-bottom: 100px;
+    }
+
+    .section3 {
+        background: cover;
+        width: 70%;
+        padding-bottom: 100px;
+        padding-left: 30%;
+    }
+
+    .section4 {
+        background: cover;
+        width: 70%;
+        padding-bottom: 100px;
+    }
+
+    .section5 {
+        background: cover;
+        width: 70%;
+        padding-bottom: 100px;
+        padding-left: 30%;
+    }
+}
