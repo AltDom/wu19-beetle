@@ -11,34 +11,43 @@
         border: 0;
     }
 
-    .heading {
+    .header {
         display: flex;
+        justify-content: flex-end;
     }
 
     .logo-box {
+        padding: 6px 6px 0px 6px;
         display: flex;
-        justify-content: flex-end;
         margin: 0;
+        border-bottom: solid black;
+        border-bottom-width: 3px;
     }
 
     .volkswagon {
         font-family: 'Lalezar', cursive;
         font-size: 20px;
         margin: 0;
+    /* border-bottom: solid black;
+        border-bottom-width: 3px; */
     }
 
     .logo {
         width: 16px;
         padding-left: 4px;
         padding-bottom: 5px;
+    /* border-bottom: solid blck;
+        border-bottom-width: 2px; */
     }
 
     /* section1 {
         display: flex;
     } */
 
-    .h1, .h2 {
+    h1, h2 {
         font-family: 'Lalezar', cursive;
+        text-align: center;
+        padding: 0px 100px;
     }
 
     .section1-img {
