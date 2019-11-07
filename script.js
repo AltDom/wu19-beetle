@@ -1,17 +1,18 @@
 function changeBackground(color) {
     document.body.style.background = color;
- }
+    document.getElementById("header").style.backgroundColor = color;
+}
 
-document.body.style.height = "2000px";
+changeBackground('#FFFFFF');
+
+
 window.onscroll = function(ev) {
-    if (((window.innerHeight + window.scrollY) >= document.body.offsetHeight)) {
+    let scrollTop = document.documentElement.scrollTop;
+    if (scrollTop >= 2110 && document.body.style.background === 'rgb(255, 255, 255)') {
         this.changeBackground('#FCF7E6');
-    }
-};
-
-document.body.style.height = "2800px";
-window.onscroll = function(ev) {
-    if (((window.innerHeight + window.scrollY) <= document.body.offsetHeight)) {
+    } else if (scrollTop < 2110 && document.body.style.background === 'rgb(252, 247, 230)') {
         this.changeBackground('#FFFFFF');
     }
-};
+}
+
+
