@@ -8,11 +8,12 @@ changeBackground('#FFFFFF');
 
 window.onscroll = function(ev) {
     let scrollTop = document.documentElement.scrollTop;
-    if (scrollTop >= 2395 && document.body.style.background === 'rgb(255, 255, 255)') {
+    let scrollHeight = document.documentElement.scrollHeight;
+    if (scrollTop/scrollHeight >= 0.4796 && document.body.style.background === 'rgb(255, 255, 255)') {
         this.changeBackground('#FEFBEC');
-    } else if (scrollTop < 2395 && document.body.style.background === 'rgb(254, 251, 236)') {
+    } else if (scrollTop/scrollHeight < 0.4796 && document.body.style.background === 'rgb(254, 251, 236)') {
         this.changeBackground('#FFFFFF');
     }
 }
 
-
+// console.log(document.documentElement.getBoundingClientRect()) use this to calculate height where colour-change should occur.
