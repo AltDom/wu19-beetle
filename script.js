@@ -9,9 +9,9 @@ changeBackground('#FFFFFF');
 window.onscroll = function(ev) {
     let scrollTop = document.documentElement.scrollTop;
     let scrollHeight = document.documentElement.scrollHeight;
-    if (scrollTop/scrollHeight >= 0.4796 && document.body.style.background === 'rgb(255, 255, 255)') {
+    if (scrollTop/scrollHeight >= 0.465 && document.body.style.background === 'rgb(255, 255, 255)') {
         this.changeBackground('#FEFBEC');
-    } else if (scrollTop/scrollHeight < 0.4796 && document.body.style.background === 'rgb(254, 251, 236)') {
+    } else if (scrollTop/scrollHeight < 0.465 && document.body.style.background === 'rgb(254, 251, 236)') {
         this.changeBackground('#FFFFFF');
     }
 }
