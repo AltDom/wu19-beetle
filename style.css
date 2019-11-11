@@ -18,6 +18,10 @@
     z-index: 1;
 }
 
+p {
+    font-size: 15px;
+}
+
 .logo-box {
     position: relative;
     padding: 6px 6px 0px 45px;
@@ -88,7 +92,7 @@
     border-left: 4px solid black;
     font-family: 'Lalezar', cursive;
     font-size: 25px;
-    width: 110px;
+    width: 50%;
     text-align: left;
     margin-left: 20px;
 }
@@ -233,12 +237,12 @@ footer {
     }
 
     .section2, .section4, .section8, .section10 {
-        padding-top: 40px;
+        padding-top: 250px;
         display: flex;
     }
 
     .section3, .section5, .section7, .section9 {
-        padding-top: 40px;
+        padding-top: 250px;
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-start;
@@ -248,29 +252,28 @@ footer {
         padding-left: 20px;
         border-left: 4px solid black;
         font-family: 'Lalezar', cursive;
-        font-size: 25px;
-        width: 110px;
+        width: 60%;
+        height: 200px;
         text-align: left;
         margin-left: 20px;
         position: flex;
-        padding-bottom: 0;
+        padding-right: 3%;
     }
 
-    /* .section2-box:after, .section4-box::after {
+    .section8-box, .section10-box {
         padding-left: 20px;
-        border-left: 6px solid white;
-        font-family: 'Lalezar', cursive;
-        font-size: 25px;
-        width: 50px;
-        height: 150%;
-        left: -5px;
-        top: 0px;
-        position: absolute;
-        display: block;
-        content: '';
-        margin-top: 100%;
-        padding-bottom: 0%;
-    } */
+        padding-top: 0;
+        padding-bottom: 120px;
+        border-left: 4px solid #654321;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 136px;
+        height: 250px;
+        text-align: left;
+        margin-left: 20px;
+        color: #655A21;
+    }
+
+    
     
 }
 
