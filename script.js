@@ -9,10 +9,19 @@ changeBackground('#FFFFFF');
 window.onscroll = function(ev) {
     let scrollTop = document.documentElement.scrollTop;
     let scrollHeight = document.documentElement.scrollHeight;
-    if (scrollTop/scrollHeight >= 0.465 && document.body.style.background === 'rgb(255, 255, 255)') {
-        this.changeBackground('#FEFBEC');
-    } else if (scrollTop/scrollHeight < 0.465 && document.body.style.background === 'rgb(254, 251, 236)') {
-        this.changeBackground('#FFFFFF');
+    let windowWidth = window.innerWidth;
+    if(windowWidth<500) {
+        if (scrollTop/scrollHeight >= 0.472 && document.body.style.background === 'rgb(255, 255, 255)') {
+            this.changeBackground('#FEFBEC');
+        } else if (scrollTop/scrollHeight < 0.472 && document.body.style.background === 'rgb(254, 251, 236)') {
+            this.changeBackground('#FFFFFF');
+        }
+    } else {
+        if (scrollTop/scrollHeight >= 0.48 && document.body.style.background === 'rgb(255, 255, 255)') {
+            this.changeBackground('#FEFBEC');
+        } else if (scrollTop/scrollHeight < 0.48 && document.body.style.background === 'rgb(254, 251, 236)') {
+            this.changeBackground('#FFFFFF');
+        }
     }
 }
 
