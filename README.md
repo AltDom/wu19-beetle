@@ -4,7 +4,7 @@
 </p>
 
 ## About This Project
-This is the final assignment that I completed for a 9-week course on Design & Visual Communication taught by Alexander Tengner from Fully Studios. It is a homepage for the '57 Volkswagen Beetle which is responsive (renders for mobile & desktop window widths), and was built using HTML, CSS & Javascript as well as all of the programs and online tools we were introduced to in the course. These include Figma, Adobe Photoshop & Adobe Illustrator. 
+This is the final assignment that I completed with another student, Erik Johannesson, for a 9-week course on Design & Visual Communication taught by Alexander Tengner from Fully Studios. It is a homepage for the '57 Volkswagen Beetle which is responsive (renders for mobile & desktop window widths), and was built using HTML, CSS & Javascript as well as all of the programs and online tools we were introduced to in the course. These include Figma, Adobe Photoshop & Adobe Illustrator. 
 
 ## Download
 * Clone the repository using `git clone https://github.com/AltDom/wu19-beetle.git` in your chosen bash terminal.
